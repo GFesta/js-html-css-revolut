@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body a {
+    color: rgb(139, 149, 158);
+}
+
+.list-inline li {
+display: inline;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper ul a {
+    text-decoration: none;
+}
+
+.header-nav {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+}
+
+.left-nav img {
+    width: 7vw;
+    vertical-align: middle;
+}
+
+.left-nav li {
+    padding-right: 2vw;
+}
+
+.right-nav {
+    justify-content: flex-end;
+}
+
+.right-nav li {
+    display: block;
+    padding: 0 1vw;
+}
+
+.right-nav > li:last-child a {
+    color: white;
+    border-radius: 2em;
+    padding: 0.625em 1.5em;
+    background-color: rgb(235, 0, 141);
+    transition: all 0.2s ease 0s;
+    white-space: nowrap;
+}
+
+.right-nav > li:last-child a:hover {
+    background-color: rgb(199, 12, 124);
+}
+
+.dropdown-parent {
+    position: relative;
+}
+
+.dropdown {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1.2vw 1.6vw;
+    box-shadow:1px 1px 7px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown li a{
+    display: inline-block;
+    margin-bottom: 1.5vw;
+    white-space: nowrap;
+}
+
+.dropdown li:first-child a {
+    margin-top: 1vw;
+}
+
+#scarica-app-drop {
+    white-space: nowrap;
+}
+#scarica-app-drop i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.display-none {
+    display: none;
+}
+
+a.black {
+    color: black;
+}
